@@ -20,7 +20,7 @@ This project is ideal for anyone who wants to never miss a dose and keep track o
 
 
 ---
-
+## Structure
 MedTrack/
 │
 ├── app.py            # Entry point
