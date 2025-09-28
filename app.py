@@ -1,4 +1,8 @@
 # app.py
+"""
+Main entry point for MEDTRACK Project
+Author: muddapukrishnavamsee@gmail.com
+"""
 from display import main, view_summary
 
 # Function to print header
