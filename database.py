@@ -38,7 +38,7 @@ def add_medicine(name, dosage, at_time):
     try:
         datetime.strptime(at_time, "%H:%M")
     except ValueError:
-        print("Time must be in HH:MM 24-hour format (e.g., 09:00 or 21:30).")
+        print("Time must be in HH:MM 24-hour format (e.g:, 09:00 or 21:30).")
         return False
     with get_conn() as conn:
         cur = conn.cursor()
