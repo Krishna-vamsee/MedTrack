@@ -9,7 +9,7 @@ from display import main, view_summary
 def print_header():
     summary = view_summary()  # Get medicine summary from database
     print("\n" + "="*50)
-    print("          Welcome to MedTrack")
+    print("           Welcome to MedTrack")
     print("      Your Smart Medicine Reminder\n")
     print(f"Total medicines: {summary['total']} | Pending: {summary['pending']} | Taken: {summary['taken']}")
     print("="*50 + "\n")
